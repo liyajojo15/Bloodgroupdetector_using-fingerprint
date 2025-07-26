@@ -1,0 +1,20 @@
+<resources>
+    <!-- Rounded corners for all sides -->
+    <style name="ShapeAppearanceOverlay.Card.Rounded" parent="Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.MaterialComponents.SmallComponent</item>
+    </style>
+
+    <!-- Top rounded corners only -->
+    <style name="ShapeAppearanceOverlay.Card.TopRounded" parent="Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.TopRounded</item>
+    </style>
+
+    <!-- Custom Shape for Top Rounded Corners -->
+    <style name="ShapeAppearance.TopRounded" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">8dp</item>
+        <item name="cornerSizeTopRight">8dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+</resources>

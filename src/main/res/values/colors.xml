@@ -1,0 +1,9 @@
+<resources>
+    <color name="light_purple">#B7B1F2</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="error">#B00020</color>
+    <color name="background_color">#FFDCCC</color>
+    <color name="text_color">#000000</color>
+</resources>

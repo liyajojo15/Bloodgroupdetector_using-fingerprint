@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <!-- App Basics -->
+        <string name="app_name">Blood Group Detector</string>
+        <string name="welcome_text">Blood Group Detector</string>
+        <string name="btn_select">Select Fingerprint</string>
+
+        <!-- UI Text -->
+        <string name="uploading_text">Analyzing fingerprint...</string>
+        <string name="result_title">Detection Results</string>
+        <string name="blood_group_label">Blood Group:</string>
+        <string name="retry_button">Try Again</string>
+        <string name="error_no_image">Please select an image first</string>
+
+        <!-- Error Messages -->
+        <string name="error_upload_failed">Upload failed. Please try again.</string>
+        <string name="error_invalid_image">Invalid fingerprint image</string>
+        <string name="error_network">Network error. Check your connection.</string>
+
+        <!-- Blood Group Results -->
+        <string name="result_blood_group_a_pos">Blood Group: A+</string>
+        <string name="result_blood_group_a_neg">Blood Group: A-</string>
+        <string name="result_blood_group_o_pos">Blood Group: O+</string>
+        <string name="result_blood_group_o_neg">Blood Group: O-</string>
+        <string name="result_blood_group_b_pos">Blood Group: B+</string>
+        <string name="result_blood_group_b_neg">Blood Group: B-</string>
+        <string name="result_blood_group_ab_pos">Blood Group: AB+</string>
+        <string name="result_blood_group_ab_neg">Blood Group: AB-</string>
+
+        <!-- Permissions -->
+        <string name="permission_required">Storage permission required</string>
+        <string name="permission_explanation">We need access to your storage to select fingerprint images</string>
+
+        <!-- Accessibility -->
+        <string name="fingerprint_preview_description">Fingerprint preview</string>
+        <string name="result_image_description">Blood group detection result</string>
+</resources>
